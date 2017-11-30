@@ -1,0 +1,7 @@
+INSTUPblueprint_sub
+/home/yojulab/Develop/eclipse-workspace_flask/TestOther/blueprint_sub.py
+INFOS:&&3|1|2|0&&2|3|2|0&&2|4|2|0
+app=1
+blueprint_sub=2
+httpmethod=4
+httpmethod_success=3

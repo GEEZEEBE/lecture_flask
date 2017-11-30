@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Lecture_Flask/templates/sqlalchemy_list.html&apos; to &apos;sqlalchemy_submit.html&apos;" description="Rename resource &apos;sqlalchemy_list.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="templates/sqlalchemy_list.html" name="sqlalchemy_submit.html" stamp="1507883632106" updateReferences="true"/>
+</session>

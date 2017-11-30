@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="{{ url_for('static', filename='js/jquery-3.2.1.min.js') }}"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $.get("{{ url_for('get_tasks') }}", function(data, status){
+            alert("Data: " + typeof data.tasks + "\nStatus: " + status);
+            $.each(data.tasks, function (i) {
+                $.each(data.tasks[i], function (key, val) {
+                    alert(key + val);
+                });
+            });
+        });
+    });
+});
+</script>
+</head>
+<body>
+<button>Send an HTTP GET request</button>
+</body>
+</html>

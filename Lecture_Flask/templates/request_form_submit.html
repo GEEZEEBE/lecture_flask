@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+   </head>
+   
+   <body>
+      <form action = "/request_form_result" method = "POST">
+         <p>Name <input type = "text" name = "Name" /></p>
+         <p>Physics <input type = "text" name = "Physics" /></p>
+         <p>Chemistry <input type = "text" name = "chemistry" /></p>
+         <p>Maths <input type ="text" name = "Mathematics" /></p>
+         <p><input type ="checkbox" name = "" /></p>
+           <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+    <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+  <input type="checkbox" name="vehicle2" value="Car"> I have a car 
+         <p><input type = "submit" value = "submit" /></p>
+      </form>
+   </body>
+</html>

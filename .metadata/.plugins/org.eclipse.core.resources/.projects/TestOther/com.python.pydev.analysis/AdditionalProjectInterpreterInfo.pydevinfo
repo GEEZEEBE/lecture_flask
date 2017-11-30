@@ -1,0 +1,56 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/yojulab/Develop/eclipse-workspace_flask/.metadata/.plugins/org.eclipse.core.resources/.projects/TestOther/com.python.pydev.analysis/v2_indexcache
+Chapter1.1|1507206625098706000|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/Chapter1.1.py
+request_sessions|1507205091266619000|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/request_sessions.py
+static|1507196558792474000|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/static.py
+mail|1507211898373747000|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/mail.py
+httpmethod|1507214712442429000|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/httpmethod.py
+template_base|1507218116775141000|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/template_base.py
+Chapter1.3_list_Iteration|1507207656505579000|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/Chapter1.3_list_Iteration.py
+Chapter1.2_list_methods|1507206825626261000|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/Chapter1.2_list_methods.py
+request_files|1507209055240597000|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/request_files.py
+template_if|1507181649781565000|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/template_if.py
+request_cookies|1507201999534905000|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/request_cookies.py
+blueprint_main|1507218093862273000|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/blueprint_main.py
+template_for|1507181933402201000|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/template_for.py
+request_form|1507197844733662000|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/request_form.py
+-- END DISKCACHE
+-- START DICTIONARY
+12
+10=request_files
+12=Chapter1.1
+2=request_sessions
+3=static
+11=mail
+4=request_cookies
+6=template_if
+5=blueprint_main
+8=httpmethod
+9=template_base
+1=request_form
+7=template_for
+-- END DICTIONARY
+-- START TREE 1
+17
+app|11|app!11@app!19@app!27@app!35@app!43@app!51@app!59@app!67@app!75@app!83@app!91@
+blu|0|
+get|0|
+hel|0|
+htt|2|httpmethod!66@httpmethod_success!66@
+ind|1|index!26@
+log|0|
+mai|2|mail_submit!90@mail!91@
+man|0|
+mov|1|movies!99@
+req|10|request_cookies_set!34@request_sessions_submit!18@request_cookies_get!34@request_files_submit!82@request_sessions_out!18@request_cookies_submit!34@request_sessions_in!18@request_form_result!10@request_files_upload!82@request_form_submit!10@
+res|1|result!58@
+stu|0|
+sub|0|
+suc|0|
+tem|3|template_base!74@template_base!42@template_if!50@
+upl|0|
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+      <script type = "text/javascript" 
+         src = "{{ url_for('static', filename = 'static.js') }}" ></script>
+   </head>
+   
+   <body>
+		Logged in as {{username}} <br>
+        <b><a href = '/request_sessions_out'>click here to log out</a></b>
+   </body>
+</html>

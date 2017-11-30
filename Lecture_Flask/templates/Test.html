@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+      <script type = "text/javascript" 
+         src = "{{ url_for('static', filename = 'static.js') }}" ></script>
+   </head>
+   
+   <body>
+      <input type = "button" onclick = "sayHello()" value = "Say Hello" />
+      <img alt="" src="{{ url_for('persistance', filename='download.jpg') }}">
+   </body>
+</html>

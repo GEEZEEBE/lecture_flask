@@ -1,0 +1,16 @@
+MODULES_MANAGER_V2
+Chapter1.1|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/Chapter1.1.py
+Chapter1.2_list_methods|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/Chapter1.2_list_methods.py
+Chapter1.3_list_Iteration|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/Chapter1.3_list_Iteration.py
+blueprint_main|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/blueprint_main.py
+blueprint_sub|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/blueprint_sub.py
+httpmethod|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/httpmethod.py
+mail|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/mail.py
+request_cookies|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/request_cookies.py
+request_files|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/request_files.py
+request_form|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/request_form.py
+request_sessions|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/request_sessions.py
+static|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/static.py
+template_base|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/template_base.py
+template_for|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/template_for.py
+template_if|/home/yojulab/Develop/eclipse-workspace_flask/TestOther/template_if.py

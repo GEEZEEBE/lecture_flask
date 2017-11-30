@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+      <script type = "text/javascript" 
+         src = "{{ url_for('static', filename = 'static.js') }}" ></script>
+   </head>
+   
+   <body>
+      <form action = "request_files_upload" method = "POST" 
+         enctype = "multipart/form-data">
+         <p>Name <input type = "text" name = "Name" /></p>
+         <input type = "file" name = "file01" />
+         <input type = "submit"/>
+      </form>
+   </body>
+</html>

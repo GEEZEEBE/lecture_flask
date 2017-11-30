@@ -1,0 +1,20 @@
+class NamedList(dict):
+    def __init__(self, a_name):
+#         list.__init__([])
+        self.name = a_name
+        self.dob = None
+#         self.list = list()
+    def aprint(self):
+        for key in self.keys():
+            print('aprint',key)
+        
+johnny = NamedList('John Paul Jones')
+# dir(johnny) #                            → Debugging Mode
+# dir(list)     #                            → Debugging Mode
+johnny.dob = '2017.10.10'
+# johnny.extend(['Comsposer', 'Arranger', 'Musician'])
+johnny = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
+# for attr, value in johnny.items():
+#     print(johnny.name + 'is a ' + at/tr + '. - ' + johnny.dob)
+
+johnny.aprint()

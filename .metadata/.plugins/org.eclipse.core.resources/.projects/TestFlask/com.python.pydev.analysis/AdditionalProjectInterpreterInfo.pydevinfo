@@ -1,0 +1,43 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/yojulab/Develop/eclipse-workspace_flask/.metadata/.plugins/org.eclipse.core.resources/.projects/TestFlask/com.python.pydev.analysis/v2_indexcache
+hello|1507122459595098000|/home/yojulab/Develop/eclipse-workspace_flask/TestFlask/hello.py
+dbshell|1507098917677421000|/home/yojulab/Develop/eclipse-workspace_flask/TestFlask/dbshell.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+3=Role
+4=User
+5=NameForm
+2=hello
+1=dbshell
+-- END DICTIONARY
+-- START TREE 1
+16
+app|2|app!11@app!19@
+bas|2|basedir!11@basedir!19@
+boo|1|bootstrap!19@
+db|2|db!19@db!11@
+ind|1|index!18@
+int|1|internal_server_error!18@
+mai|1|mail!19@
+mak|1|make_shell_context!18@
+man|1|manager!19@
+mig|1|migrate!19@
+mom|1|moment!19@
+nam|1|NameForm!17@
+pag|1|page_not_found!18@
+rol|2|Role!17@Role!9@
+sen|2|send_email!18@send_async_email!18@
+use|2|User!9@User!17@
+-- END TREE
+-- START TREE 2
+7
+__r|2|__repr__!3&18@__repr__!4&18@
+__t|4|__tablename__!3&19@__tablename__!4&19@__tablename__!3&11@__tablename__!4&11@
+id|4|id!3&19@id!4&19@id!3&11@id!4&11@
+nam|3|name!3&19@name!5&19@name!3&11@
+rol|2|role_id!4&19@role_id!4&11@
+sub|1|submit!5&19@
+use|4|username!4&11@users!3&11@users!3&19@username!4&19@
+-- END TREE

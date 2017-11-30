@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="{{ url_for('static', filename='js/jquery-3.2.1.min.js') }}"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+    	$.ajax({
+    	    type: "POST",
+    	    contentType: "application/json",
+    	    url: "{{ url_for('create_task') }}",
+    	    data: JSON.stringify({ 
+    	    	title: "Donald Duck", description: "Duckburg"
+    	    }),
+    	    dataType: "json",
+    	    success:function(data,status){
+                alert("Data: " + data + "\nStatus: " + status);
+    	    }
+    	});
+    });
+});
+</script>
+</head>
+<body>
+<button>Send an HTTP POST request with $Ajax</button>
+</body>
+</html>

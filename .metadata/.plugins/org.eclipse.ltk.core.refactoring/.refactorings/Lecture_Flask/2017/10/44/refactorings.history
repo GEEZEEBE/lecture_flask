@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Lecture_Flask/mail.py&apos; to &apos;send_mail.py&apos;" description="Rename resource &apos;mail.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="mail.py" name="send_mail.py" stamp="1509408572085" updateReferences="true"/>
+</session>
