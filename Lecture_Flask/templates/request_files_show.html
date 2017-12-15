@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+      <script type = "text/javascript" 
+         src = "{{ url_for('static', filename = 'static.js') }}" ></script>
+   </head>
+   
+   <body>
+      <img src="{{url_for('get_local_download')}}" style="width: 200px; height: 140px;">
+   </body>
+</html>
