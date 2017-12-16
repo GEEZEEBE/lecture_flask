@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.min.css') }}" type="text/css" charset="UTF-8" />
+</head>
+
+<body>
+<table class="table table-hover text-center" border=1>
+	<thead>
+		<tr>
+			<th>#</th>
+			<th>UUID</th>
+			<th>Insert Date</th>
+		</tr>
+	</thead>
+	{% for row in rows %}
+	<tr>
+		{% set numbering = loop.index+(pagination.page*pagination.per_page) %}
+		<td>{{ numbering }}</td>
+		<td>{{ row['uniqueId'] }}</td>
+		<td>{{ row['insertDate'] }}</td> 
+	</tr>
+	{% endfor %}
+</table>
+{% if pagination %}
+<div class="row" align="center">
+	<div class="col-md-12">
+		<p>
+		    {% from "_pagehelpers.html" import render_pagination %}
+		    {{ render_pagination(pagination) }}
+		</p>
+	</div>
+</div>
+{% else %}
+	<!-- do nothing! -->
+{% endif %}
+</body>
+</html>
